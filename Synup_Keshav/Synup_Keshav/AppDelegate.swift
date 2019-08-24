@@ -16,16 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        NetworkManager.shared.JSONGetRequest(endPoint: PizzaFeed.getPizzaVariants) {
-            result in
-            switch result {
-            case .success(let jsondict):
-                print(jsondict)
-                
-            case .error (_):
-                print("Handle the error")
-            }
-        }
+       
         return true
     }
 

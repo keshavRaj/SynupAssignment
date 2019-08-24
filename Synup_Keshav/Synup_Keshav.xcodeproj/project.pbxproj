@@ -17,6 +17,14 @@
 		2620FB1B2311130500913CEA /* SynupEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB192311130500913CEA /* SynupEndPoint.swift */; };
 		2620FB1D2311168400913CEA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB1C2311168400913CEA /* NetworkManager.swift */; };
 		2620FB1E2311168400913CEA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB1C2311168400913CEA /* NetworkManager.swift */; };
+		2620FB202311255200913CEA /* VariantGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB1F2311255200913CEA /* VariantGroup.swift */; };
+		2620FB212311255200913CEA /* VariantGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB1F2311255200913CEA /* VariantGroup.swift */; };
+		2620FB23231125A200913CEA /* Variation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB22231125A200913CEA /* Variation.swift */; };
+		2620FB24231125A200913CEA /* Variation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB22231125A200913CEA /* Variation.swift */; };
+		2620FB272311292C00913CEA /* PizzaVariationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB262311292C00913CEA /* PizzaVariationVM.swift */; };
+		2620FB282311292C00913CEA /* PizzaVariationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB262311292C00913CEA /* PizzaVariationVM.swift */; };
+		2620FB2C23112C7900913CEA /* SelectPizzaVariationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB2B23112C7900913CEA /* SelectPizzaVariationVC.swift */; };
+		2620FB2D23112C7900913CEA /* SelectPizzaVariationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB2B23112C7900913CEA /* SelectPizzaVariationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,10 @@
 		2620FB0E231110FC00913CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2620FB192311130500913CEA /* SynupEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynupEndPoint.swift; sourceTree = "<group>"; };
 		2620FB1C2311168400913CEA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2620FB1F2311255200913CEA /* VariantGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantGroup.swift; sourceTree = "<group>"; };
+		2620FB22231125A200913CEA /* Variation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variation.swift; sourceTree = "<group>"; };
+		2620FB262311292C00913CEA /* PizzaVariationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaVariationVM.swift; sourceTree = "<group>"; };
+		2620FB2B23112C7900913CEA /* SelectPizzaVariationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPizzaVariationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +95,9 @@
 		2620FAF6231110F900913CEA /* Synup_Keshav */ = {
 			isa = PBXGroup;
 			children = (
-				2620FB182311125800913CEA /* Constants */,
+				2620FB2A23112C4F00913CEA /* Controller */,
+				2620FB252311291000913CEA /* ViewModel */,
+				2620FB182311125800913CEA /* Model */,
 				2620FB172311123300913CEA /* Network Layer */,
 				2620FAF7231110F900913CEA /* AppDelegate.swift */,
 				2620FAF9231110F900913CEA /* ViewController.swift */,
@@ -113,11 +127,29 @@
 			path = "Network Layer";
 			sourceTree = "<group>";
 		};
-		2620FB182311125800913CEA /* Constants */ = {
+		2620FB182311125800913CEA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2620FB1F2311255200913CEA /* VariantGroup.swift */,
+				2620FB22231125A200913CEA /* Variation.swift */,
 			);
-			path = Constants;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2620FB252311291000913CEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2620FB262311292C00913CEA /* PizzaVariationVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2620FB2A23112C4F00913CEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2620FB2B23112C7900913CEA /* SelectPizzaVariationVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +254,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2620FB1D2311168400913CEA /* NetworkManager.swift in Sources */,
+				2620FB23231125A200913CEA /* Variation.swift in Sources */,
 				2620FAFA231110F900913CEA /* ViewController.swift in Sources */,
+				2620FB2C23112C7900913CEA /* SelectPizzaVariationVC.swift in Sources */,
+				2620FB272311292C00913CEA /* PizzaVariationVM.swift in Sources */,
+				2620FB202311255200913CEA /* VariantGroup.swift in Sources */,
 				2620FB1A2311130500913CEA /* SynupEndPoint.swift in Sources */,
 				2620FAF8231110F900913CEA /* AppDelegate.swift in Sources */,
 			);
@@ -234,7 +270,11 @@
 			files = (
 				2620FB1E2311168400913CEA /* NetworkManager.swift in Sources */,
 				2620FB1B2311130500913CEA /* SynupEndPoint.swift in Sources */,
+				2620FB24231125A200913CEA /* Variation.swift in Sources */,
+				2620FB282311292C00913CEA /* PizzaVariationVM.swift in Sources */,
 				2620FB0D231110FC00913CEA /* Synup_KeshavTests.swift in Sources */,
+				2620FB212311255200913CEA /* VariantGroup.swift in Sources */,
+				2620FB2D23112C7900913CEA /* SelectPizzaVariationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

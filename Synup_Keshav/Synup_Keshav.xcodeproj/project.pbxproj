@@ -25,6 +25,10 @@
 		2620FB282311292C00913CEA /* PizzaVariationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB262311292C00913CEA /* PizzaVariationVM.swift */; };
 		2620FB2C23112C7900913CEA /* SelectPizzaVariationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB2B23112C7900913CEA /* SelectPizzaVariationVC.swift */; };
 		2620FB2D23112C7900913CEA /* SelectPizzaVariationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB2B23112C7900913CEA /* SelectPizzaVariationVC.swift */; };
+		2620FB2F2311473000913CEA /* PizzaVariantSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB2E2311473000913CEA /* PizzaVariantSelectionCell.swift */; };
+		2620FB302311473000913CEA /* PizzaVariantSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB2E2311473000913CEA /* PizzaVariantSelectionCell.swift */; };
+		2620FB322311518800913CEA /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB312311518800913CEA /* SelectionView.swift */; };
+		2620FB332311518800913CEA /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2620FB312311518800913CEA /* SelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,8 @@
 		2620FB22231125A200913CEA /* Variation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variation.swift; sourceTree = "<group>"; };
 		2620FB262311292C00913CEA /* PizzaVariationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaVariationVM.swift; sourceTree = "<group>"; };
 		2620FB2B23112C7900913CEA /* SelectPizzaVariationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPizzaVariationVC.swift; sourceTree = "<group>"; };
+		2620FB2E2311473000913CEA /* PizzaVariantSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaVariantSelectionCell.swift; sourceTree = "<group>"; };
+		2620FB312311518800913CEA /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				2620FB2B23112C7900913CEA /* SelectPizzaVariationVC.swift */,
+				2620FB2E2311473000913CEA /* PizzaVariantSelectionCell.swift */,
+				2620FB312311518800913CEA /* SelectionView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,6 +269,8 @@
 				2620FB202311255200913CEA /* VariantGroup.swift in Sources */,
 				2620FB1A2311130500913CEA /* SynupEndPoint.swift in Sources */,
 				2620FAF8231110F900913CEA /* AppDelegate.swift in Sources */,
+				2620FB2F2311473000913CEA /* PizzaVariantSelectionCell.swift in Sources */,
+				2620FB322311518800913CEA /* SelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +281,9 @@
 				2620FB1E2311168400913CEA /* NetworkManager.swift in Sources */,
 				2620FB1B2311130500913CEA /* SynupEndPoint.swift in Sources */,
 				2620FB24231125A200913CEA /* Variation.swift in Sources */,
+				2620FB302311473000913CEA /* PizzaVariantSelectionCell.swift in Sources */,
 				2620FB282311292C00913CEA /* PizzaVariationVM.swift in Sources */,
+				2620FB332311518800913CEA /* SelectionView.swift in Sources */,
 				2620FB0D231110FC00913CEA /* Synup_KeshavTests.swift in Sources */,
 				2620FB212311255200913CEA /* VariantGroup.swift in Sources */,
 				2620FB2D23112C7900913CEA /* SelectPizzaVariationVC.swift in Sources */,

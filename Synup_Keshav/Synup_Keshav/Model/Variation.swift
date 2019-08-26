@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Variation {
+struct Variation {
     let id: String
     let inStock: Int
     let name: String

@@ -33,7 +33,6 @@ import UIKit
     private let strokeWidth: CGFloat = 1
 
     override func draw(_ rect: CGRect) {
-        print("isselected = \(_isSelected)")
         let color = _isSelected ? selectionColor : defaultColor
         let radius = (min(rect.width, rect.height) - strokeWidth) / 2
         let startAngle = CGFloat.pi

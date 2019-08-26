@@ -8,10 +8,10 @@
 
 import Foundation
 
-class VariantGroup {
+struct VariantGroup {
     let groupId: String
     let name: String
-    let variations: [Variation]
+    var variations: [Variation]
     
     private enum Keys: String {
         case group_id, name, variations

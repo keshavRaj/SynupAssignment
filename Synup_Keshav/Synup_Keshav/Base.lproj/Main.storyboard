@@ -64,11 +64,6 @@
                                                         <constraint firstAttribute="height" constant="30" id="2k3-Ze-Why"/>
                                                         <constraint firstAttribute="width" constant="30" id="Nae-gF-xWW"/>
                                                     </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="isSelected">
-                                                            <integer key="value" value="1"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -103,8 +98,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="evX-5C-Y4U"/>
+                    <navigationItem key="navigationItem" id="evX-5C-Y4U">
+                        <barButtonItem key="rightBarButtonItem" title="Order" id="f1x-Ru-His">
+                            <connections>
+                                <action selector="orderButtonClicked:" destination="BYZ-38-t0r" id="D9m-4U-uGu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="orderButton" destination="f1x-Ru-His" id="c1H-KU-va3"/>
                         <outlet property="variantTableView" destination="pKo-zu-Ah8" id="9qf-ik-tdS"/>
                     </connections>
                 </viewController>

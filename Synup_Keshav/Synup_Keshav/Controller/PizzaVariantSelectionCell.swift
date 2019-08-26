@@ -11,11 +11,11 @@ import UIKit
 class PizzaVariantSelectionCell: UITableViewCell {
 
    
-    @IBOutlet weak var selectionView: UIView!
+    @IBOutlet weak var selectionView: SelectionView!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var variantNameLabel: UILabel!
     @IBOutlet weak var inStockLabel: UILabel!
-   
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
